@@ -1,0 +1,8 @@
+<div class="postheader"><h1>Recently asked Questions</h1></div> 
+<div class="postcontent">
+  <ul>
+      <li *ngFor="let question of questions$">
+        <P>{{question.questionDesc}} asked by <!--<i>{{question.person.firstname}}</i> --> </P>
+      </li>
+    </ul>
+</div>
